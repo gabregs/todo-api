@@ -1,0 +1,36 @@
+.container-fluid,
+.container {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-fluid {
+    max-width: 980px;
+  }
+}
+
+#todoList {
+  margin-top: 10px;
+}
+
+#todoInput {
+  margin-bottom: 5px;
+}
+
+/* This will fade in the new added tasks using the animation property */
+.todo {
+  margin-bottom: 10px;
+  opacity: 0;
+  -webkit-animation: fadeIn 0.5s linear forwards;
+  -moz-animation: fadeIn 0.5s linear forwards;
+  animation: fadeIn 0.5s linear forwards;
+}
+
+/* you need to define the fadeIn keyframe property for it to work */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
