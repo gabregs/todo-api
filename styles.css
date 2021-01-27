@@ -16,11 +16,11 @@ body {
   }
 }
 
-#todoList {
+#todo-list {
   margin-top: 10px;
 }
 
-#todoInput {
+#new-task-content {
   margin-bottom: 5px;
 }
 
